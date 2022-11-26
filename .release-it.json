@@ -1,7 +1,7 @@
 {
   "git": {
     "requireCommits": true,
-    "changelog": "npx auto-changelog --stdout --commit-limit false -u -t compact"
+    "changelog": "echo 'Ala Ma Kota'"
   },
   "github": {
     "release": true,
@@ -12,6 +12,6 @@
     "publish": false
   },
   "hooks": {
-    "after:bump": ["npm run build", "npx auto-changelog -p"]
+    "after:bump": ["npm run build"]
   }
 }
