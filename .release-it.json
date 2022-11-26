@@ -1,7 +1,7 @@
 {
   "github": {
     "release": true,
-    "assets": ["dist/*.zip", "dist/*.user.js", "dist/*.meta.js"]
+    "assets": ["dist/**/*.zip", "dist/**/*.user.js", "dist/**/*.meta.js"]
   },
   "npm": {
     "publish": false
