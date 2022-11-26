@@ -1,4 +1,7 @@
 {
+  "git": {
+    "requireCommits": true
+  },
   "github": {
     "release": true,
     "draft": true,
