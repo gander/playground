@@ -1,7 +1,7 @@
 {
   "git": {
     "requireCommits": true,
-    "changelog": "npx auto-changelog --stdout --commit-limit false -u -t keepachangelog"
+    "changelog": "npx auto-changelog --stdout --commit-limit false -u -t compact"
   },
   "github": {
     "release": true,
