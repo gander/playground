@@ -5,10 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.0.9](https://github.com/gander/playground/compare/2.0.8...2.0.9)
+## [2.0.10](https://github.com/gander/playground/compare/2.0.9...2.0.10)
 
 ### Commits
 
+- setup changelog template compact for release body [`f39e086`](https://github.com/gander/playground/commit/f39e086a9c0467357c6774038e267b0613e2c9cc)
+
+## [2.0.9](https://github.com/gander/playground/compare/2.0.8...2.0.9) - 2022-11-26
+
+### Commits
+
+- Release 2.0.9 [`86cf050`](https://github.com/gander/playground/commit/86cf050df15d06b973673133524e4780616c1983)
 - setup changelog template keepachangelog - check [`4b95222`](https://github.com/gander/playground/commit/4b95222d52fbe9580d6e6db550e3fee8fa80b3e7)
 
 ## [2.0.8](https://github.com/gander/playground/compare/2.0.7...2.0.8) - 2022-11-26
