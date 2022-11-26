@@ -1,13 +1,16 @@
 {
   "git": {
     "commitMessage": "Craft v${version} release",
-    "requireCommits": true
+    "requireCommits": true,
+    "tagAnnotation": "Release v${version}",
+    "tagName": "v${version}"
   },
   "github": {
     "release": true,
     "draft": true,
     "assets": ["dist/**/*.zip", "dist/**/*.user.js", "dist/**/*.meta.js"],
-    "releaseNotes": "npx auto-changelog --stdout -u -l false -t compact --hide-empty-releases --hide-credit"
+    "releaseNotes": "npx auto-changelog --stdout --commit-limit false --template compact --hide-empty-releases --hide-credit",
+    "releaseName": "v${version}"
   },
   "npm": {
     "publish": false
@@ -15,7 +18,7 @@
   "hooks": {
     "after:bump": [
       "npm run build",
-      "npx auto-changelog -p -u -l false -t keepachangelog --hide-empty-releases --hide-credit"
+      "npx auto-changelog --package --commit-limit false --template keepachangelog --hide-empty-releases --hide-credit"
     ]
   }
 }
