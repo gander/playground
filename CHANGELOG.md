@@ -5,10 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.1.0](https://github.com/gander/playground/compare/2.0.10...2.1.0)
+## [3.0.0](https://github.com/gander/playground/compare/2.1.0...3.0.0)
 
 ### Commits
 
+- setup changelog [`d62c87f`](https://github.com/gander/playground/commit/d62c87f1d5c3e31fb2b1822c660efba74bfde131)
+
+## [2.1.0](https://github.com/gander/playground/compare/2.0.10...2.1.0) - 2022-11-26
+
+### Commits
+
+- Craft v2.1.0 release [`00ccda9`](https://github.com/gander/playground/commit/00ccda92e11679f55e6333b5be6c3362fc7bdbfd)
 - setup changelog template compact for release body - fix? [`411ebd5`](https://github.com/gander/playground/commit/411ebd5539494b8b2c3f9425a98225b0d12e06bd)
 
 ## [2.0.10](https://github.com/gander/playground/compare/2.0.9...2.0.10) - 2022-11-26
