@@ -1,7 +1,6 @@
 {
   "git": {
-    "requireCommits": true,
-    "changelog": "echo 'Ala Ma Kota'"
+    "requireCommits": true
   },
   "github": {
     "release": true,
@@ -12,6 +11,9 @@
     "publish": false
   },
   "hooks": {
-    "after:bump": ["npm run build"]
+    "after:bump": [
+      "npm run build",
+      "npx auto-changelog -p -u -l false --hide-empty-releases --hide-credit"
+    ]
   }
 }
