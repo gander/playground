@@ -1,12 +1,13 @@
 {
   "git": {
-    "requireCommits": true,
-    "changelog": "npx auto-changelog --stdout -u -l false -t compact --hide-empty-releases --hide-credit"
+    "commitMessage": "Craft v${version} release",
+    "requireCommits": true
   },
   "github": {
     "release": true,
     "draft": true,
-    "assets": ["dist/**/*.zip", "dist/**/*.user.js", "dist/**/*.meta.js"]
+    "assets": ["dist/**/*.zip", "dist/**/*.user.js", "dist/**/*.meta.js"],
+    "releaseNotes": "npx auto-changelog --stdout -u -l false -t compact --hide-empty-releases --hide-credit"
   },
   "npm": {
     "publish": false
