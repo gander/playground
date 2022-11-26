@@ -13,7 +13,7 @@
   "hooks": {
     "after:bump": [
       "npm run build",
-      "npx auto-changelog -p -u -l false --hide-empty-releases --hide-credit"
+      "npx auto-changelog -p -u -l false -t keepachangelog --hide-empty-releases --hide-credit"
     ]
   }
 }
