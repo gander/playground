@@ -1,6 +1,7 @@
 {
   "git": {
-    "requireCommits": true
+    "requireCommits": true,
+    "changelog": "npx auto-changelog --stdout -u -l false -t keepachangelog --hide-empty-releases --hide-credit"
   },
   "github": {
     "release": true,
