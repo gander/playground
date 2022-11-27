@@ -11,8 +11,7 @@
     "draft": true,
     "assets": ["dist/**/*.zip", "dist/**/*.user.js", "dist/**/*.meta.js"],
     "releaseNotes": "npx auto-changelog --stdout --commit-limit false --template compact --hide-empty-releases --hide-credit",
-    "releaseName": "v${version}",
-    "tagMatch": "v[0-9]*\\.[0-9]*\\.[0-9]*"
+    "releaseName": "v${version}"
   },
   "npm": {
     "publish": false
