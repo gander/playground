@@ -1,7 +1,6 @@
 {
   "git": {
     "commitMessage": "Craft v${version} release",
-    "requireCommits": true,
     "requireCleanWorkingDir": true,
     "tagAnnotation": "Release v${version}",
     "tagName": "v${version}",
