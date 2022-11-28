@@ -5,10 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [v4.0.15](https://github.com/gander/playground/compare/v4.0.14...v4.0.15)
+## [v4.0.16](https://github.com/gander/playground/compare/v4.0.15...v4.0.16)
+
+### Merged
+
+- Update .gitignore [`#3`](https://github.com/gander/playground/pull/3)
+- Update main.ts [`#2`](https://github.com/gander/playground/pull/2)
+
+## [v4.0.15](https://github.com/gander/playground/compare/v4.0.14...v4.0.15) - 2022-11-28
 
 ### Commits
 
+- Craft v4.0.15 release [`8a6dafd`](https://github.com/gander/playground/commit/8a6dafda75efb0f53c911a70600a4c74bbb8df86)
 - experiment X..Y [`09497c5`](https://github.com/gander/playground/commit/09497c512189f12602e3d1ce5b8cb66666da9697)
 
 ## [v4.0.14](https://github.com/gander/playground/compare/v4.0.12...v4.0.14) - 2022-11-28
