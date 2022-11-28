@@ -17,6 +17,7 @@
   "hooks": {
     "after:bump": [
       "npm run build",
+      "--version",
       "auto-changelog -p"
     ]
   }
