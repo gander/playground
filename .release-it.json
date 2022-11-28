@@ -1,7 +1,6 @@
 {
   "git": {
     "commitMessage": "Craft v${version} release",
-    "requireCleanWorkingDir": true,
     "tagAnnotation": "Release v${version}",
     "tagName": "v${version}",
     "commitArgs": ["-S"]
@@ -9,8 +8,7 @@
   "github": {
     "release": true,
     "draft": true,
-    "assets": ["dist/**/*.zip", "dist/**/*.user.js", "dist/**/*.meta.js"],
-    "releaseNotes": "npx auto-changelog --stdout --commit-limit false --template compact --hide-empty-releases --hide-credit",
+    "assets": ["dist/**/*.zip", "dist/**/*.js"],
     "releaseName": "v${version}"
   },
   "npm": {
