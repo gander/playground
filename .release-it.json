@@ -23,7 +23,7 @@
     "@release-it/keep-a-changelog": {
       "filename": "CHANGELOG.md",
       "strictLatest": false,
-      "keepUnreleased": true
+      "addUnreleased": true
     }
   }
 }
