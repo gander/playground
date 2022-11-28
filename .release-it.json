@@ -16,8 +16,8 @@
   },
   "hooks": {
     "after:bump": [
-      "npm run build",
-      "auto-changelog -p"
+      "build",
+      "auto-changelog --package --commit-limit false --hide-credit"
     ]
   }
 }
