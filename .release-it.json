@@ -17,7 +17,7 @@
   "hooks": {
     "after:bump": [
       "npm run build",
-      "auto-changelog --package --commit-limit false --hide-credit"
+      "auto-changelog --package --commit-limit false --template keepachangelog --hide-credit"
     ]
   }
 }
