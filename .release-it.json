@@ -16,14 +16,8 @@
   },
   "hooks": {
     "after:bump": [
-      "npm run build"
+      "npm run build",
+      "auto-changelog -p"
     ]
-  },
-  "plugins": {
-    "@release-it/keep-a-changelog": {
-      "filename": "CHANGELOG.md",
-      "strictLatest": false,
-      "addUnreleased": true
-    }
   }
 }
