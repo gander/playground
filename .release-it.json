@@ -8,7 +8,8 @@
   "github": {
     "release": true,
     "draft": true,
-    "assets": ["dist/**/*.zip", "dist/**/*.js"]
+    "assets": ["dist/**/*.zip", "dist/**/*.js"],
+    "releaseName": "v${version}"
   },
   "npm": {
     "publish": false
