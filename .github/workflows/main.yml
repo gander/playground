@@ -21,4 +21,4 @@ jobs:
         token: ${{ SECRETS.SENTRY_TOKEN }}
         organization: ${{ SECRETS.SENTRY_ORG }}
         project: ${{ SECRETS.SENTRY_PROJECT }}
-    - run: sentry-cli
+    - run: sentry-cli send-event -m 'demo test'
